@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+input:focus-visible {
+  outline: none;
+}
+
+input::placeholder{
+    color: #000;
+    letter-spacing: 0.5px;
+}
