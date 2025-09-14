@@ -7,7 +7,7 @@ import OrderProcess from "./OrderProcess"
 
 export default function MainContent() {
   return (
-    <main className="flex-1 px-6 pt-6">
+    <main className="container flex-1 px-1">
       <HeroSection />
       <ProductGrid />
       <CompanyAdvantages />
