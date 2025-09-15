@@ -81,7 +81,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsInstagram, BsTelegram } from "react-icons/bs";
-import qr_code from "../../public/assets/Yi Long.png";
+import qr_code from "../../public/assets/YiLong.png";
 import { useI18n } from "@/components/i18n/I18nProvider";
 
 export default function Footer() {
