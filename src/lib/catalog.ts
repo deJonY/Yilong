@@ -143,8 +143,8 @@ export const CATALOG: Section[] = [
     categories: [
       { id: "pvh-yilong", title: "ПВХ YiLong" },
       { id: "orgsteklo-yilong", title: "Оргстекло YiLong" },
-      { id: "pvc-fomex", title: "PVC YiLong" },
-      { id: "akril-jun-shang", title: "Акрил JUN SHANG" },
+      { id: "pvc-fomex", title: "ПВС YiLong" },
+      { id: "akril-jun-shang", title: "Акрил XT Xin Tao" },
       { id: "roumark-gravirovka", title: "Роумарк (пластик для гравировки)" },
       { id: "alyukobond", title: "Алюкобонд" },
       { id: "penokarton", title: "Пенокартон" },
@@ -362,8 +362,8 @@ const TR_UZ = {
     "listovye-materialy": {
       "pvh-yilong": "PVX YiLong",
       "orgsteklo-yilong": "Orgsteklo YiLong",
-      "pvc-fomex": "PVC YiLong",
-      "akril-jun-shang": "Akril JUN SHANG",
+      "pvc-fomex": "PVC Fomex",
+      "akril-jun-shang": "Akril Xin Tao XT",
       "roumark-gravirovka": "Ro‘umark (gravirovka uchun plastik)",
       "alyukobond": "Alyukobond",
       "penokarton": "Penokarton",
