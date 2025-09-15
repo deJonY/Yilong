@@ -237,7 +237,7 @@ const TR_UZ = {
       "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
       "rakeli": "Rakelilar",
       "ruchnye-instrumenty": "Qo‘l asboblari"
-    }
+    },
 
     "instrumenty": {
       "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
