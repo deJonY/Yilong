@@ -2231,7 +2231,7 @@ const uz = {
           "pvh-yilong": "PVX Yilong",
           "pvkh-yilong": "PVX Yilong",
           "orgsteklo-yilong": "Orgsteklo Yilong",
-          "pvc-yilong": "PVC Yilong",
+          "pvc-yilong": "PVC Fomex",
           "akril-jun-shang": "Akril Xin Tao XT",
           "roumark-plastik": "Ro‘umark (gravirovka uchun plastik)",
           "roumark-gravirovka": "Ro‘umark (gravirovka uchun plastik)",
