@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import Sidebar from "../components/nav/Sidebar"
+import Sidebar from "../components/Sidebar"
 import MainContent from "../components/MainContent"
 import Footer from "../components/Footer"
 import ProductPageClient from "@/components/product/ProductPageClient";
