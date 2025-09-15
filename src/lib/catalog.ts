@@ -147,43 +147,75 @@ const TR_UZ = {
       "alyukobond": "Alyukobond",
       "penokarton": "Penokarton",
     },
+    // "rulonnye-materialy": {
+    //   "banner-tkan": "Banner matosi",
+    //   "beklit" : "Beklit (yoritiladigan banner materiali)"
+    //   "materialy-dlya-pechati": "Bosma uchun materiallar",
+    //   "tentovaya-tkan": "Tent matosi",
+    //   "plenki-laminirovanie": "Laminatsiya plyonkalari",
+    //   "cvetnaya-samokley-vinil": "Rangli yopishqoq vinil plyonka",
+    //   "montazhnye-plenki": "Montaj plyonkalari",
+    //   "vitrajnye-plenki": "Vitraj plyonkalar",
+    //   "magnitnyj-vinil": "Magnitli vinil",
+    //   "pechatniy-orakal": "Bosma uchun oboy",
+    // },
     "rulonnye-materialy": {
       "banner-tkan": "Banner matosi",
-      "materialy-dlya-pechati": "Bosma uchun materiallar",
-      "tentovaya-tkan": "Tent matosi",
-      "plenki-laminirovanie": "Laminatsiya plyonkalari",
+      "beklit": "Beklit (yoritiladigan banner materiali)",
       "cvetnaya-samokley-vinil": "Rangli yopishqoq vinil plyonka",
-      "montazhnye-plenki": "Montaj plyonkalari",
-      "vitrajnye-plenki": "Vitraj plyonkalar",
       "magnitnyj-vinil": "Magnitli vinil",
-      "oboi-dlya-pechati": "Bosma uchun oboy",
-    },
+      "montazhnye-plenki": "Montaj plyonkalari",
+      "pechatniy-orakal": "Bosma uchun orakal",
+      "tkan-dlya-sublimatsionoy-pechati": "Sublimatsion bosma uchun mato",
+      "vitrajnye-plenki": "Vitraj plyonkalar",
+      "xolst": "Xolst"
+    }
+    // "istochniki-sveta": {
+    //   "led-prozhektory": "LED proyektorlar (sofitlar)",
+    //   "moduli-svetodiodnye": "LED modullar",
+    //   "svetod-lenty": "LED lentalar",
+    //   "svetod-linejki-zhestkaya-osnova": "Qattiq asosli LED lineykalar",
+    //   "duralajt": "LED duralayt",
+    //   "svetilnik": "Chiroq (svetilnik)",
+    //   "gibkij-neon": "Moslashuvchan LED neon",
+    // },
     "istochniki-sveta": {
       "led-prozhektory": "LED proyektorlar (sofitlar)",
       "moduli-svetodiodnye": "LED modullar",
       "svetod-lenty": "LED lentalar",
       "svetod-linejki-zhestkaya-osnova": "Qattiq asosli LED lineykalar",
       "duralajt": "LED duralayt",
-      "svetilnik": "Chiroq (svetilnik)",
-      "gibkij-neon": "Moslashuvchan LED neon",
-    },
+      "svetilnik": "Chiroq",
+      "gibkij-neon": "Moslashuvchan LED neon"
+    }
+
     "transformatory-i-upravlenie": {
-      "transformatory-vnutr-naruzh": "Transformatorlar (ichki va tashqi)",
-      "kontrollery-dimmery-usiliteli": "Kontrollerlar, dimmerlar, kuchaytirgichlar",
+      "transformatory-naruzh": "Transformatorlar (ichki va tashqi)",
+      "transformatory-vnutr": "Kontrollerlar, dimmerlar, kuchaytirgichlar",
     },
     "chernila-kraski": {
       "solvent-kraski": "Solvent bo‘yoqlar",
       "ecosolvent-kraski": "Ekosolvent bo‘yoqlar",
     },
+    // "reklamno-vystavochnoe": {
+    //   "pop-up-stendy": "Pop-up stendlar (press-wall)",
+    //   "x-konstrukcii": "X-konstruksiyalar, X-bannerlar",
+    //   "roll-up": "Roll-up stendlar",
+    //   "promostoly": "Promo stollar, promostoykalar",
+    //   "flagchiki-flagi": "Bayroqchalar (bayroqlar)",
+    //   "posm-raznoe": "POSM materiallar (turli)",
+    //   "bukletnicy": "Buklet qo‘yish stendlari",
+    // },
     "reklamno-vystavochnoe": {
       "pop-up-stendy": "Pop-up stendlar (press-wall)",
-      "x-konstrukcii": "X-konstruksiyalar, X-bannerlar",
+      "x-konstrukcii": "X-konstruksiyalar (X-bannerlar)",
       "roll-up": "Roll-up stendlar",
-      "promostoly": "Promo stollar, promostoykalar",
+      "promostoly": "Promo stollar (promostoykalar)",
       "flagchiki-flagi": "Bayroqchalar (bayroqlar)",
-      "posm-raznoe": "POSM materiallar (turli)",
-      "bukletnicy": "Buklet qo‘yish stendlari",
-    },
+      "posm-raznoe": "POSM materiallari (turli)",
+      "bukletnicy": "Buklet stendlari"
+    }
+
     "alyuminievye-profily": {
       "profil-dlya-lent": "LED lentalar uchun alyuminiy profil",
     },
