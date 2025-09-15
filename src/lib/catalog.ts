@@ -26,7 +26,7 @@ export const CATALOG: Section[] = [
       { id: "pvh-yilong", title: "ПВХ YiLong" },
       { id: "orgsteklo-yilong", title: "Оргстекло YiLong" },
       { id: "pvc-fomex", title: "ПВС Формекс" },
-      { id: "akril-jun-shang", title: "Акрил XT Xin Tao" },
+      { id: "akril-jun-shang", title: "Акрил Xin Tao XT" },
       { id: "roumark-gravirovka", title: "Роумарк (пластик для гравировки)" },
       { id: "alyukobond", title: "Алюкобонд" },
       { id: "penokarton", title: "Пенокартон" },
@@ -120,109 +120,6 @@ export const CATALOG: Section[] = [
     ],
   },
 ];
-
-// export const CATALOG: Section[] = [
-//   {
-//     id: "listovye-materialy",
-//     title: "List materiallar",
-//     categories: [
-//       { id: "pvh-yilong", title: "PVX YiLong" },
-//       { id: "orgsteklo-yilong", title: "Organik shisha YiLong" },
-//       { id: "pvc-fomex", title: "PVC YiLong" },
-//       { id: "akril-jun-shang", title: "Akril JUN SHANG" },
-//       { id: "roumark-gravirovka", title: "Roumark (gravyura uchun plastmassa)" },
-//       { id: "alyukobond", title: "Alyukobond" },
-//       { id: "penokarton", title: "Ko‘pik karton" },
-//     ],
-//   },
-//   {
-//     id: "rulonnye-materialy",
-//     title: "Rulon materiallari",
-//     categories: [
-//       { id: "banner-tkan", title: "Banner mato" },
-//       { id: "beklit", title: "Beklit" },
-//       { id: "cvetnaya-samokley-vinil", title: "Rangli yopishqoq vinil plyonka" },
-//       { id: "magnitnyj-vinil", title: "Magnitli vinil" },
-//       { id: "montazhnye-plenki", title: "Montaj plyonkalari" },
-//       { id: "pechatniy-orakal", title: "Bosma orakal" },
-//       { id: "tkan-dlya-sublimatsionoy-pechati", title: "Sublimatsion bosma uchun mato" },
-//       { id: "vitrajnye-plenki", title: "Vitray plyonkalari" },
-//       { id: "xolst", title: "Xolst" },
-//     ],
-//   },
-//   {
-//     id: "istochniki-sveta",
-//     title: "Yorug‘lik manbalari (LED, lampalar va boshqalar)",
-//     categories: [
-//       { id: "led-prozhektory", title: "LED proyektorlar (soffitlar)" },
-//       { id: "moduli-svetodiodnye", title: "LED modullar" },
-//       { id: "svetod-lenty", title: "LED lentalar" },
-//       { id: "svetod-linejki-zhestkaya-osnova", title: "Qattiq asosli LED lineykalar" },
-//       { id: "duralajt", title: "Duralayt LED" },
-//       { id: "svetilnik", title: "Chiroq" },
-//       { id: "gibkij-neon", title: "Moslashuvchan neon LED" },
-//     ],
-//   },
-//   {
-//     id: "transformatory-i-upravlenie",
-//     title: "Transformatorlar va boshqaruv manbalari",
-//     categories: [
-//       { id: "transformatory-naruzh", title: "Transformatorlar (tashqi)" },
-//       { id: "transformatory-vnutr", title: "Transformatorlar (ichki)" },
-//     ],
-//   },
-//   {
-//     id: "chernila-kraski",
-//     title: "Siyohlar (bo‘yoqlar)",
-//     categories: [
-//       { id: "solvent-kraski", title: "Solvent bo‘yoqlar" },
-//       { id: "ecosolvent-kraski", title: "Ekosolvent bo‘yoqlar" },
-//     ],
-//   },
-//   {
-//     id: "reklamno-vystavochnoe",
-//     title: "Reklama va ko‘rgazma uskunalari",
-//     categories: [
-//       { id: "flagchiki-flagi", title: "Bayroqchalar (bayroqlar)" },
-//       { id: "pop-up-stendy", title: "Pop-up stendlar (press devorlar)" },
-//       { id: "promostoly", title: "Promo stollar" },
-//       { id: "roll-up", title: "Roll-up stendlar va “o‘rgimchak” stendlar" },
-//     ],
-//   },
-//   {
-//     id: "alyuminievye-profily",
-//     title: "Alyuminiy profillar va jihozlar",
-//     categories: [
-//       { id: "profil-dlya-lent", title: "LED lentalar uchun alyuminiy profil" },
-//     ],
-//   },
-//   {
-//     id: "kleevye-resheniya",
-//     title: "Yopishtiruvchi yechimlar (skotch, elim)",
-//     categories: [
-//       { id: "skotch", title: "Skotch" },
-//       { id: "klei", title: "Elim" },
-//     ],
-//   },
-//   {
-//     id: "instrumenty",
-//     title: "Asboblar",
-//     categories: [
-//       { id: "lezviya-dlya-nozhey", title: "Pichoq uchun tig‘lar" },
-//       { id: "lyoversy-i-proboyniki", title: "Lyoverslar va teshuvchi asboblar" },
-//       { id: "rakeli", title: "Rakellar" },
-//       { id: "ruchnye-instrumenty", title: "Qo‘l asboblari Hoji" },
-//     ],
-//   },
-//   {
-//     id: "frezy-i-gravery",
-//     title: "Freza va gravir asboblari",
-//     categories: [
-//       { id: "frezy", title: "Freza asboblari" },
-//       { id: "gravery", title: "Graverlar" },
-//     ],
-//   },
-// ];
 
 // ---------- UZ tarjimalar (ID -> UZ matn) ----------
 
