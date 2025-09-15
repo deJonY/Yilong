@@ -228,10 +228,24 @@ const TR_UZ = {
       "metal-furnitura": "Metall furnitura",
       "neodimovye-magnity": "Neodim magnitlar",
     },
+    // "instrumenty": {
+    //   "ruchnye-instrumenty": "Qo‘l anjomlari",
+    //   "postpechatnye-instrumenty": "Bosmadan keyingi anjomlar",
+    // },
     "instrumenty": {
-      "ruchnye-instrumenty": "Qo‘l anjomlari",
-      "postpechatnye-instrumenty": "Bosmadan keyingi anjomlar",
-    },
+      "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
+      "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
+      "rakeli": "Rakelilar",
+      "ruchnye-instrumenty": "Qo‘l asboblari"
+    }
+
+    "instrumenty": {
+      "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
+      "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
+      "rakeli": "Rakelilar",
+      "ruchnye-instrumenty": "Qo‘l asboblari"
+    }
+
     "frezy-i-gravery": {
       "frezy": "Frezalar",
       "gravery": "Graverlar",
