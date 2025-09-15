@@ -169,7 +169,7 @@ const TR_UZ = {
       "tkan-dlya-sublimatsionoy-pechati": "Sublimatsion bosma uchun mato",
       "vitrajnye-plenki": "Vitraj plyonkalar",
       "xolst": "Xolst"
-    }
+    },
     // "istochniki-sveta": {
     //   "led-prozhektory": "LED proyektorlar (sofitlar)",
     //   "moduli-svetodiodnye": "LED modullar",
@@ -187,7 +187,7 @@ const TR_UZ = {
       "duralajt": "LED duralayt",
       "svetilnik": "Chiroq",
       "gibkij-neon": "Moslashuvchan LED neon"
-    }
+    },
 
     "transformatory-i-upravlenie": {
       "transformatory-naruzh": "Transformatorlar (ichki va tashqi)",
@@ -214,7 +214,7 @@ const TR_UZ = {
       "flagchiki-flagi": "Bayroqchalar (bayroqlar)",
       "posm-raznoe": "POSM materiallari (turli)",
       "bukletnicy": "Buklet stendlari"
-    }
+    },
 
     "alyuminievye-profily": {
       "profil-dlya-lent": "LED lentalar uchun alyuminiy profil",
