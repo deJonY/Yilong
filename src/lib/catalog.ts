@@ -141,7 +141,7 @@ const TR_UZ = {
     "listovye-materialy": {
       "pvh-yilong": "PVX YiLong",
       "orgsteklo-yilong": "Orgsteklo YiLong",
-      "pvc-fomex": "PVC Fomex",
+      "pvc-yilong": "PVC Fomex",
       "akril-jun-shang": "Akril Xin Tao XT",
       "roumark-gravirovka": "Ro‘umark (gravirovka uchun plastik)",
       "alyukobond": "Alyukobond",
