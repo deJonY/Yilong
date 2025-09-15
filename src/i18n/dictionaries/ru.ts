@@ -1806,7 +1806,7 @@ const ru = {
       fast_delivery: {
         title: "Быстрая доставка",
         description:
-          "Доставка собственным транспортом в день заказа",
+          "Доставка собственным транспортом по Ташкенте в день заказа",
       },
       quality_guarantee: {
         title: "Гарантия качества",
@@ -2058,9 +2058,9 @@ const ru = {
     sheet: {
       title: "Листовые материалы",
       sub: {
-        pvh_yilong: "ПВХ Yilong",
+        pvh_yilong: "ПВХ Fomex",
         orgsteklo_yilong: "Оргстекло Yilong",
-        pvc_yilong: "PVC Yilong",
+        pvc_yilong: "ПВС Yilong",
         akril_jun_shang: "Акрил Xin Tao XT",
         roumark: "Роумарк (пластик для гравировки)",
         alyukobond: "Алюкобонд",
@@ -2163,10 +2163,10 @@ const ru = {
       "listovye-materialy": {
         title: "Листовые материалы",
         categories: {
-          "pvh-yilong": "ПВХ Yilong",
-          "pvkh-yilong": "ПВХ Yilong",
+          "pvh-Fomex": "ПВХ Fomex",
+          "pvkh-yilong": "ПВХ Fomex",
           "orgsteklo-yilong": "Оргстекло Yilong",
-          "pvc-yilong": "PVC Yilong",
+          "pvc-yilong": "ПВC Yilong",
           "akril-jun-shang": "Акрил Xin Tao XT",
           "roumark-plastik": "Роумарк (пластик для гравировки)",
           "roumark-gravirovka": "Роумарк (пластик для гравировки)",
