@@ -25,7 +25,7 @@ export const CATALOG: Section[] = [
     categories: [
       { id: "pvh-yilong", title: "ПВХ YiLong" },
       { id: "orgsteklo-yilong", title: "Оргстекло YiLong" },
-      { id: "pvc-fomex", title: "ПВС Формекс" },
+      { id: "pvc-yilong", title: "ПВС Формекс" },
       { id: "akril-jun-shang", title: "Акрил Xin Tao XT" },
       { id: "roumark-gravirovka", title: "Роумарк (пластик для гравировки)" },
       { id: "alyukobond", title: "Алюкобонд" },
