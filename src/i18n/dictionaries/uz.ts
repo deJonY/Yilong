@@ -1859,7 +1859,7 @@ const uz = {
       fast_delivery: {
         title: "Tez yetkazib berish",
         description:
-          "Buyurtma kuni o‘z transportimiz bilan yetkazib berish",
+          "Buyurtma berilgan kuni Toshkent bo'ylab o'z transportimizda yetkazib berish",
       },
       quality_guarantee: {
         title: "Sifat kafolati",
