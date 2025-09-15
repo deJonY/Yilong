@@ -244,7 +244,7 @@ const TR_UZ = {
       "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
       "rakeli": "Rakelilar",
       "ruchnye-instrumenty": "Qo‘l asboblari"
-    }
+    },
 
     "frezy-i-gravery": {
       "frezy": "Frezalar",
