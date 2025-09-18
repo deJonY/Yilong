@@ -1859,11 +1859,7 @@ const uz = {
       fast_delivery: {
         title: "Tez yetkazib berish",
         description:
-<<<<<<< HEAD
           "Buyurtma berilgan kuni Toshkent bo'ylab o'z transportimizda yetkazib berish",
-=======
-          "Buyurtma kuni o‘z transportimiz bilan yetkazib berish",
->>>>>>> 731c8a5 (update file)
       },
       quality_guarantee: {
         title: "Sifat kafolati",
@@ -2128,11 +2124,9 @@ const uz = {
         pvh_yilong: "PVX Yilong",
         orgsteklo_yilong: "Orgsteklo Yilong",
         pvc_yilong: "PVC Yilong",
-<<<<<<< HEAD
+
         akril_jun_shang: "Akril Xin Tao XT",
-=======
-        akril_jun_shang: "Akril JUN SHANG",
->>>>>>> 731c8a5 (update file)
+
         roumark: "Ro‘umark (o‘ymakorlik plastiği)",
         alyukobond: "Alyukobond",
         penokarton: "Peno karton",

@@ -247,14 +247,15 @@ import { db } from "@/lib/firebase/init";
 import Breadcrumbs from "@/components/nav/Breadcrumbs";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useI18n } from "@/components/i18n/I18nProvider";
-import ZoomImage from "./ZoomImage";
 import Link from "next/link";
-import ProductList from "../cards/first-card";
+
 
 // ⬇️ YANGI: UI’da nomlarni avtomatik tarjima qilish (ReactNode)
 import LocalizedTitle from "@/components/i18n/LocalizedTitle";
 // ⬇️ YANGI: faqat string kerak bo‘ladigan joylar uchun (alt, breadcrumbs)
 import { translateProductTitle } from "@/lib/titleTranslate";
+import ProductList from "@/components/cards/first-card";
+import ZoomImage from "@/components/product/ZoomImage";
 
 type Props = {
   sectionId: string;

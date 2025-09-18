@@ -20,9 +20,7 @@ import {
   getDoc,
 } from "firebase/firestore";
 
-/* ======================
-   Turlar
-   ====================== */
+
 type BannerDoc = {
   id: string;
   image: string;
@@ -33,9 +31,7 @@ type BannerDoc = {
 
 type SectionTitleMap = Record<string, string>;
 
-/* ======================
-   Ma’lumotlarni olish
-   ====================== */
+
 // async function fetchBanners(): Promise<BannerDoc[]> {
 //   const q = query(
 //     collection(db, "banners"),
@@ -102,9 +98,6 @@ async function fetchSectionTitles(
   return Object.fromEntries(entries);
 }
 
-/* ======================
-   Komponent
-   ====================== */
 export default function HeroSection() {
   const { t, lang } = useI18n();
   const [banners, setBanners] = useState<BannerDoc[] | null>(null);

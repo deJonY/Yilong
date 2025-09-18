@@ -10,9 +10,6 @@ import {
   limit as fsLimit,
 } from "firebase/firestore";
 
-/* ================================
- * Types
- * ================================ */
 export type SectionDoc = {
   id: string;
   title: string;
@@ -45,9 +42,6 @@ export type ItemDoc = {
   _sizeId?: string;
 };
 
-/* ================================
- * Helpers
- * ================================ */
 function sortByTitle<T extends { title?: string }>(arr: T[], locale = "ru") {
   return arr.sort((a, b) => (a.title || "").localeCompare(b.title || "", locale));
 }
@@ -62,9 +56,7 @@ export function joinNameSize(name?: string, size?: string) {
   return [name, sizeText].filter(Boolean).join(" ");
 }
 
-/* ================================
- * Sections
- * ================================ */
+
 export async function fetchSections(locale: string = "ru"): Promise<SectionDoc[]> {
   const col = collection(db, "products");
   const qref = query(col, orderBy("order"));
@@ -79,9 +71,7 @@ export async function fetchSectionTitle(sectionId: string): Promise<string> {
   return (s.data()?.title as string) || sectionId;
 }
 
-/* ================================
- * Categories
- * ================================ */
+
 export async function fetchCategories(
   sectionId: string,
   locale: string = "ru"
@@ -109,9 +99,7 @@ export async function getCategoryImage(
   return (d.data()?.image as string) || undefined;
 }
 
-/* ================================
- * Sizes
- * ================================ */
+
 export async function fetchSizes(
   sectionId: string,
   categoryId: string,
@@ -138,9 +126,7 @@ export async function fetchSizeLabel(
   return joinNameSize(data.name, data.size);
 }
 
-/* ================================
- * Items (category)
- * ================================ */
+
 export async function fetchItemsCat(
   sectionId: string,
   categoryId: string,
@@ -156,9 +142,7 @@ export async function fetchItemsCat(
   return sortByTitle(list, locale);
 }
 
-/* ================================
- * Items (size)
- * ================================ */
+
 export async function fetchItemsSize(
   sectionId: string,
   categoryId: string,

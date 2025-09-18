@@ -43,7 +43,7 @@
 //   return a;
 // }
 
-// /* =================================================================== */
+
 // export default function SectionClient({ sectionId }: { sectionId: string }) {
 //   const router = useRouter();
 //   const { t } = useI18n();
@@ -146,7 +146,7 @@
 //   /* ------------ Actions ------------ */
 //   const openCategory = (catId: string) => router.push(`/${sectionId}/${catId}`);
 
-//   /* =================================================================== */
+
 //   return (
 //     <div className="space-y-10">
 //       {/* 1) Kategoriyalar grid (avvalgi eski holat) */}
@@ -247,7 +247,7 @@
 //   );
 // }
 
-// ==============================================================================================================================
+
 
 // src/components/section/SectionClient.tsx
 "use client";
@@ -297,7 +297,7 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-/* =================================================================== */
+
 export default function SectionClient({ sectionId }: { sectionId: string }) {
   const router = useRouter();
   const { t } = useI18n();
@@ -400,7 +400,7 @@ export default function SectionClient({ sectionId }: { sectionId: string }) {
   /* ------------ Actions ------------ */
   const openCategory = (catId: string) => router.push(`/${sectionId}/${catId}`);
 
-  /* =================================================================== */
+
   return (
     <div className="space-y-10">
       {/* 1) Kategoriyalar grid (avvalgi eski holat) */}

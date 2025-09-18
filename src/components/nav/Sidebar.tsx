@@ -7,9 +7,7 @@ import { useEffect, useMemo, useState } from "react";
 import { CATALOG } from "@/lib/catalog";
 import { useI18n } from "@/components/i18n/I18nProvider";
 
-/* =========================================================
- * 1) SECTION/CATEGORY aliastari (ko‘p uchraydigan variantlar)
- * ======================================================= */
+
 const SECTION_ID_ALIASES: Record<string, string> = {
   // qisqa yoki noto‘liq variantlar → kanonik
   "reklamno-vystavochnoe": "reklamnoe-i-vystavochnoe-oborudovanie",
@@ -129,9 +127,7 @@ const CATEGORY_ID_ALIASES: Record<string, Record<string, string>> = {
   },
 };
 
-/* =========================================================
- * 2) Normalizatorlar (oxirgi chora sifatida turli yozilishlar)
- * ======================================================= */
+
 function normalizeSectionIdGuess(id: string): string[] {
   const out = new Set<string>([id]);
 
@@ -176,9 +172,7 @@ function normalizeCatIdGuess(id: string): string[] {
   return Array.from(variants);
 }
 
-/* =========================================================
- * 3) I18n helperlar
- * ======================================================= */
+
 const canonSectionId = (id: string) => SECTION_ID_ALIASES[id] ?? id;
 const canonCategoryId = (sectionId: string, categoryId: string) => {
   const s = canonSectionId(sectionId);

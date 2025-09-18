@@ -21,7 +21,7 @@
 // import { useI18n } from "@/components/i18n/I18nProvider";
 // import { formatCurrency } from "@/i18n/config";
 
-// /* ===================== Types ===================== */
+
 // type CartMap = Record<string, number>;
 // type MetaMap = Record<string, { title?: string; price?: string; image?: string }>;
 
@@ -33,7 +33,7 @@
 //   quantity: number;
 // };
 
-// /* ===================== Helpers ===================== */
+
 // const parsePriceToNumber = (s?: string) => {
 //   if (!s) return 0;
 //   const digits = s.match(/\d+/g);
@@ -41,7 +41,7 @@
 //   return Number(digits.join(""));
 // };
 
-// /* ===================== Storage helpers ===================== */
+
 // const readSales = (): CartMap => {
 //   if (typeof window === "undefined") return {};
 //   try {
@@ -77,7 +77,7 @@
 //   return { title: p.title as string, price: p.price as string, image: p.image as string | undefined };
 // };
 
-// /* ===================== Cart Modal ===================== */
+
 // type CartModalProps = {
 //   isOpen: boolean;
 //   onClose: () => void;
@@ -202,7 +202,7 @@
 //   );
 // };
 
-// /* ===================== Order Modal ===================== */
+
 // type OrderModalProps = {
 //   isOpen: boolean;
 //   onClose: () => void;
@@ -298,7 +298,7 @@
 //   );
 // };
 
-// /* ===================== Static menu ===================== */
+
 // const categoriesData = [
 //   { title: "Листовые материалы", link: "/listovye-materialy" },
 //   { title: "Рулонные материалы", link: "/rulonnye-materialy" },
@@ -313,7 +313,7 @@
 //   { title: "Фрезы и граверы", link: "/frezy-i-gravery" },
 // ];
 
-// /* ===================== Header ===================== */
+
 // export default function Header() {
 //   const { t, lang, setLang } = useI18n();
 //   const currency = (n: number) => formatCurrency(n, lang);
@@ -760,7 +760,7 @@ import logo from "../../public/assets/icon.png";
 import { useI18n } from "@/components/i18n/I18nProvider";
 import { formatCurrency } from "@/i18n/config";
 
-/* ===================== Types ===================== */
+
 type CartMap = Record<string, number>;
 type MetaMap = Record<string, { title?: string; price?: string; image?: string }>;
 
@@ -772,7 +772,7 @@ type CartDetail = {
   quantity: number;
 };
 
-/* ===================== Helpers ===================== */
+
 const parsePriceToNumber = (s?: string) => {
   if (!s) return 0;
   const digits = s.match(/\d+/g);
@@ -780,7 +780,7 @@ const parsePriceToNumber = (s?: string) => {
   return Number(digits.join(""));
 };
 
-/* ===================== Storage helpers ===================== */
+
 const readSales = (): CartMap => {
   if (typeof window === "undefined") return {};
   try {
@@ -813,7 +813,7 @@ const lookupFromDemo = (id: string) => {
   return { title: p.title as string, price: p.price as string, image: p.image as string | undefined };
 };
 
-/* ===================== Cart Modal ===================== */
+
 type CartModalProps = {
   isOpen: boolean;
   onClose: () => void;
@@ -936,7 +936,7 @@ const CartModal: React.FC<CartModalProps> = ({
   );
 };
 
-/* ===================== Order Modal ===================== */
+
 type OrderModalProps = {
   isOpen: boolean;
   onClose: () => void;
@@ -1034,7 +1034,7 @@ const OrderModal: React.FC<OrderModalProps> = ({
   );
 };
 
-/* ===================== Mega-menu (link saqlanadi, nom i18n) ===================== */
+
 const MEGAMENU: { id: string; href: string; fallback: string }[] = [
   { id: "listovye-materialy", href: "/listovye-materialy", fallback: "Листовые материалы" },
   { id: "rulonnye-materialy", href: "/rulonnye-materialy", fallback: "Рулонные материалы" },
@@ -1052,7 +1052,7 @@ const MEGAMENU: { id: string; href: string; fallback: string }[] = [
   { id: "frezy-i-gravery", href: "/frezy-i-gravery", fallback: "Фрезы и граверы" },
 ];
 
-/* ===================== Header ===================== */
+
 export default function Header() {
   const { t, lang, setLang } = useI18n();
   const currency = (n: number) => formatCurrency(n, lang);
