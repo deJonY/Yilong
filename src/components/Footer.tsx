@@ -104,10 +104,10 @@ export default function Footer() {
                 height={80}
                 className="mt-4 rounded"
               />
-              <Link href="https://www.instagram.com/yilong_ads/" className="h-full" aria-label="Instagram">
+              <Link href="https://www.instagram.com/yilong_ads?igsh=MXZsODFiamc0bHdtcw==" className="h-full" aria-label="Instagram">
                 <BsInstagram className="mt-4 text-white-300 hover:text-white cursor-pointer w-10 h-10" />
               </Link>
-              <Link href="https://t.me/+998772686658" className="h-full" aria-label="Telegram">
+              <Link href="https://t.me/Yilong_ads" className="h-full" aria-label="Telegram">
                 <BsTelegram className="mt-4 text-white-300 hover:text-white cursor-pointer w-10 h-10" />
               </Link>
             </div>

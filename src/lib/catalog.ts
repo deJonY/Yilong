@@ -232,6 +232,10 @@ const TR_UZ = {
     //   "ruchnye-instrumenty": "Qo‘l anjomlari",
     //   "postpechatnye-instrumenty": "Bosmadan keyingi anjomlar",
     // },
+<<<<<<< HEAD
+=======
+
+>>>>>>> 731c8a5 (update file)
     "instrumenty": {
       "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
       "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
@@ -239,6 +243,7 @@ const TR_UZ = {
       "ruchnye-instrumenty": "Qo‘l asboblari"
     },
 
+<<<<<<< HEAD
     "instrumenty": {
       "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
       "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
@@ -246,6 +251,8 @@ const TR_UZ = {
       "ruchnye-instrumenty": "Qo‘l asboblari"
     },
 
+=======
+>>>>>>> 731c8a5 (update file)
     "frezy-i-gravery": {
       "frezy": "Frezalar",
       "gravery": "Graverlar",

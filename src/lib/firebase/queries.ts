@@ -184,10 +184,6 @@ export async function fetchItemsSize(
   return sortByTitle(list, locale);
 }
 
-/* ================================
- * Helper: merge all size items of a category
- *  - Har bir itemga `_sizeId` qo'shib qaytaradi
- * ================================ */
 export async function fetchAllSizeItems(
   sectionId: string,
   categoryId: string,
@@ -203,4 +199,10 @@ export async function fetchAllSizeItems(
     })
   );
   return all.flat();
+}
+
+export async function getItemsByCategory(sectionId: string, categoryId: string) {
+  const colRef = collection(db, "products", sectionId, "categories", categoryId, "items");
+  const snap = await getDocs(colRef);
+  return snap.docs.map((d) => ({ id: d.id, ...(d.data() as any) }));
 }

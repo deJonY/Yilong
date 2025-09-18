@@ -29,25 +29,51 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// import CategoryLayout from "@/components/CategoryLayout";
+// import SectionClient from "@/components/section/SectionClient";
+// import { CATALOG } from "@/lib/catalog";
+// // import CategoryShowcase from "@/components/section/CategoryShowcase";
+
+// export function generateStaticParams() {
+//   return CATALOG.map((s) => ({ sectionId: s.id }));
+// }
+
+// type PageProps = { params: { sectionId: string } };
+
+// export default function SectionPage({ params }: PageProps) {
+//   const { sectionId } = params;
+//   const section = CATALOG.find((s) => s.id === sectionId);
+//   const title = section?.title ?? sectionId;
+
+//   return (
+//     <CategoryLayout title={title}>
+//       {/* <CategoryShowcase sectionId={sectionId} limit={6} /> */}
+//       <SectionClient sectionId={sectionId} />
+//     </CategoryLayout>
+//   );
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 import CategoryLayout from "@/components/CategoryLayout";
 import SectionClient from "@/components/section/SectionClient";
 import { CATALOG } from "@/lib/catalog";
-// import CategoryShowcase from "@/components/section/CategoryShowcase";
+import SectionTitle from "@/components/section/SectionTitle";
+import { cookies } from "next/headers";
 
 export function generateStaticParams() {
-  return CATALOG.map((s) => ({ sectionId: s.id }));
+  return CATALOG.map(s => ({ sectionId: s.id }));
 }
 
-type PageProps = { params: { sectionId: string } };
+type Params = Promise<{ sectionId: string }>;
 
-export default function SectionPage({ params }: PageProps) {
-  const { sectionId } = params;
-  const section = CATALOG.find((s) => s.id === sectionId);
-  const title = section?.title ?? sectionId;
+export default async function SectionPage({ params }: { params: Params }) {
+  const { sectionId } = await params;
 
   return (
-    <CategoryLayout title={title}>
-      {/* <CategoryShowcase sectionId={sectionId} limit={6} /> */}
+    <CategoryLayout title={"" /* bo'sh beramiz */}>
+      {/* H1 ni endi clientda chizamiz */}
+      <SectionTitle sectionId={sectionId} />
       <SectionClient sectionId={sectionId} />
     </CategoryLayout>
   );
