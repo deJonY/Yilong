@@ -51,12 +51,12 @@ export const CATALOG: Section[] = [
     id: "istochniki-sveta",
     title: "Источники света (светодиоды, лампы и пр.)",
     categories: [
-      { id: "led-prozhektory", title: "LED прожекторы (соффиты)" }, //1
+      // { id: "led-prozhektory", title: "LED прожекторы (соффиты)" }, //1
       { id: "moduli-svetodiodnye", title: "Модули светодиодные" }, //2
       { id: "svetod-lenty", title: "Светодиодные ленты" }, //3
       { id: "svetod-linejki-zhestkaya-osnova", title: "Светодиодные линейки на жесткой основе" }, //4
-      { id: "duralajt", title: "Дюралайт светодиодный" }, //5
-      { id: "svetilnik", title: "Светильник" }, //6
+      // { id: "duralajt", title: "Дюралайт светодиодный" }, //5
+      // { id: "svetilnik", title: "Светильник" }, //6
       { id: "gibkij-neon", title: "Гибкий неон светодиодный" }, //7
     ],
   },
