@@ -23,100 +23,107 @@ export const CATALOG: Section[] = [
     id: "listovye-materialy",
     title: "Листовые материалы",
     categories: [
-      { id: "pvh-yilong", title: "ПВХ YiLong" },
-      { id: "orgsteklo-yilong", title: "Оргстекло YiLong" },
-      { id: "pvc-yilong", title: "ПВС Формекс" },
-      { id: "akril-jun-shang", title: "Акрил Xin Tao XT" },
-      { id: "roumark-gravirovka", title: "Роумарк (пластик для гравировки)" },
-      { id: "alyukobond", title: "Алюкобонд" },
-      { id: "penokarton", title: "Пенокартон" },
+      { id: "pvh-yilong", title: "ПВХ Формекс" }, //1
+      { id: "orgsteklo-yilong", title: "Оргстекло YiLong" }, //2
+      { id: "pvc-yilong", title: "PVC YiLong" }, //3
+      { id: "akril-jun-shang", title: "Акрил XT Xin Tao" }, //4
+      { id: "roumark-gravirovka", title: "Роумарк (пластик для гравировки)" }, //5
+      { id: "alyukobond", title: "Алюкобонд" }, //6
+      { id: "penokarton", title: "Пенокартон" }, //7
     ],
   },
   {
     id: "rulonnye-materialy",
     title: "Рулонные материалы",
     categories: [
-      { id: "banner-tkan", title: "Баннерная ткань" },
-      { id: "beklit", title: "Беклит" },
-      { id: "cvetnaya-samokley-vinil", title: "Цветная самоклеющаяся виниловая пленка" },
-      { id: "magnitnyj-vinil", title: "Магнитный винил" },
-      { id: "montazhnye-plenki", title: "Монтажные пленки" },
-      { id: "pechatniy-orakal", title: "Печатний оракал" },
-      { id: "tkan-dlya-sublimatsionoy-pechati", title: "Ткань для сублимационной печати" },
-      { id: "vitrajnye-plenki", title: "Витражные пленки" },
-      { id: "xolst", title: "Холст" },
+      { id: "banner-tkan", title: "Баннерная ткань" }, //1
+      { id: "cvetnaya-samokley-vinil", title: "Цветная самоклеющаяся виниловая пленка" }, //2
+      { id: "montazhnye-plenki", title: "Монтажные пленки" }, //3
+      { id: "vitrajnye-plenki", title: "Витражные пленки" }, //4
+      { id: "magnitnyj-vinil", title: "Магнитный винил" }, //5
+      { id: "beklit", title: "Беклит" }, //6
+      { id: "xolst", title: "Холст" }, //7
+      { id: "tkan-dlya-sublimatsionoy-pechati", title: "Ткань для сублимационной печати" }, //8
+      { id: "pechatniy-orakal", title: "Печатний оракал" }, //9
     ],
   },
   {
     id: "istochniki-sveta",
     title: "Источники света (светодиоды, лампы и пр.)",
     categories: [
-      { id: "led-prozhektory", title: "LED прожекторы (соффиты)" },
-      { id: "moduli-svetodiodnye", title: "Модули светодиодные" },
-      { id: "svetod-lenty", title: "Светодиодные ленты" },
-      { id: "svetod-linejki-zhestkaya-osnova", title: "Светодиодные линейки на жесткой основе" },
-      { id: "duralajt", title: "Дюралайт светодиодный" },
-      { id: "svetilnik", title: "Светильник" },
-      { id: "gibkij-neon", title: "Гибкий неон светодиодный" },
+      { id: "led-prozhektory", title: "LED прожекторы (соффиты)" }, //1
+      { id: "moduli-svetodiodnye", title: "Модули светодиодные" }, //2
+      { id: "svetod-lenty", title: "Светодиодные ленты" }, //3
+      { id: "svetod-linejki-zhestkaya-osnova", title: "Светодиодные линейки на жесткой основе" }, //4
+      { id: "duralajt", title: "Дюралайт светодиодный" }, //5
+      { id: "svetilnik", title: "Светильник" }, //6
+      { id: "gibkij-neon", title: "Гибкий неон светодиодный" }, //7
     ],
   },
   {
     id: "transformatory-i-upravlenie",
     title: "Трансформаторы и источники управления",
     categories: [
-      { id: "transformatory-naruzh", title: "Трансформаторы (наружные)" },
-      { id: "transformatory-vnutr", title: "Трансформаторы (внутренние)"},
+      { id: "transformatory-naruzh", title: "Трансформаторы (наружные)" }, //1
+      { id: "transformatory-vnutr", title: "Трансформаторы (внутренние)" }, //2
     ],
   },
   {
     id: "chernila-kraski",
     title: "Чернила (краски)",
     categories: [
-      { id: "solvent-kraski", title: "Сольвентные краски" },
-      { id: "ecosolvent-kraski", title: "Экосольвентные краски" },
+      { id: "solvent-kraski", title: "Сольвентные краски" }, //1
+      { id: "ecosolvent-kraski", title: "Экосольвентные краски" }, //2
     ],
   },
   {
     id: "reklamno-vystavochnoe",
     title: "Рекламное и выставочное оборудование",
     categories: [
-      { id: "flagchiki-flagi", title: "Флажочки (флаги)" },
-      { id: "pop-up-stendy", title: "Поп-ап стенды (pop up, пресс-стены)" },
-      { id: "promostoly", title: "Промостолы, промостойки" },
-      { id: "roll-up", title: "Ролл-стенды roll up и паучки" },
+      { id: "pop-up-stendy", title: "Поп-ап стенды (pop up, пресс-стены)" }, //1
+      { id: "roll-up", title: "Ролл-стенды roll up и паучки" }, //2
+      { id: "flagchiki-flagi", title: "Флажочки (флаги)" }, //3
+      { id: "promostoly", title: "Промостолы, промостойки" }, //4
     ],
   },
   {
     id: "alyuminievye-profily",
     title: "Алюминиевые профиля и комплектующие",
     categories: [
-      { id: "profil-dlya-lent", title: "Алюминиевый профиль для светодиодных лент" },
+      { id: "profil-dlya-lent", title: "Алюминиевый профиль для светодиодных лент" }, //1
     ],
   },
   {
     id: "kleevye-resheniya",
     title: "Клеевые решения (скотч, клей)",
     categories: [
-      { id: "skotch", title: "Клеевые решения (скотч)" },
-      { id: "klei", title: "Клей" },
+      { id: "skotch", title: "Двусторонний ленты (скотч)" }, //1
+      { id: "klej", title: "Клей" }, //2
+    ],
+  },
+  {
+    id: "metal-i-plast-furnitura",
+    title: "Металлическая и пластиковая фурнитура",
+    categories: [
+      { id: "distantsionnye-derjateli-serebro", title: "Дистанционные держатели (серебро)" }, //1
     ],
   },
   {
     id: "instrumenty",
     title: "Инструменты",
     categories: [
-      { id: "lezviya-dlya-nozhey", title: "Лезвия для ножей" },
-      { id: "lyoversy-i-proboyniki", title: "Люверсы и пробойники" },
-      { id: "rakeli", title: "Ракели" },
-      { id: "ruchnye-instrumenty", title: "Ручные инструменты Hoji" },
+      { id: "ruchnye-instrumenty", title: "Ручные инструменты Hoji" }, //1
+      { id: "lezviya-dlya-nozhey", title: "Лезвия для ножей" }, //2
+      { id: "lyoversy-i-proboyniki", title: "Люверсы и пробойники" }, //3
+      { id: "rakeli", title: "Ракели" }, //4
     ],
   },
   {
     id: "frezy-i-gravery",
     title: "Фрезы и граверы",
     categories: [
-      { id: "frezy", title: "Фрезы" },
-      { id: "gravery", title: "Граверы" },
+      { id: "frezy", title: "Фрезы" }, //1
+      { id: "gravery", title: "Граверы" }, //2
     ],
   },
 ];
@@ -137,48 +144,30 @@ const TR_UZ = {
     "instrumenty": "Anjomlar",
     "frezy-i-gravery": "Freza va graverlar",
   } as Record<string, string>,
+
   categories: {
     "listovye-materialy": {
-      "pvh-yilong": "PVX YiLong",
+      "pvh-yilong": "PVX Fomex",
       "orgsteklo-yilong": "Orgsteklo YiLong",
-      "pvc-yilong": "PVC Fomex",
-      "akril-jun-shang": "Akril Xin Tao XT",
+      "pvc-yilong": "PVC YiLong",
+      "akril-jun-shang": "Akril XT Xin Tao",
       "roumark-gravirovka": "Ro‘umark (gravirovka uchun plastik)",
       "alyukobond": "Alyukobond",
       "penokarton": "Penokarton",
     },
-    // "rulonnye-materialy": {
-    //   "banner-tkan": "Banner matosi",
-    //   "beklit" : "Beklit (yoritiladigan banner materiali)"
-    //   "materialy-dlya-pechati": "Bosma uchun materiallar",
-    //   "tentovaya-tkan": "Tent matosi",
-    //   "plenki-laminirovanie": "Laminatsiya plyonkalari",
-    //   "cvetnaya-samokley-vinil": "Rangli yopishqoq vinil plyonka",
-    //   "montazhnye-plenki": "Montaj plyonkalari",
-    //   "vitrajnye-plenki": "Vitraj plyonkalar",
-    //   "magnitnyj-vinil": "Magnitli vinil",
-    //   "pechatniy-orakal": "Bosma uchun oboy",
-    // },
+
     "rulonnye-materialy": {
       "banner-tkan": "Banner matosi",
-      "beklit": "Beklit (yoritiladigan banner materiali)",
       "cvetnaya-samokley-vinil": "Rangli yopishqoq vinil plyonka",
-      "magnitnyj-vinil": "Magnitli vinil",
       "montazhnye-plenki": "Montaj plyonkalari",
-      "pechatniy-orakal": "Bosma uchun orakal",
-      "tkan-dlya-sublimatsionoy-pechati": "Sublimatsion bosma uchun mato",
       "vitrajnye-plenki": "Vitraj plyonkalar",
-      "xolst": "Xolst"
+      "magnitnyj-vinil": "Magnitli vinil",
+      "beklit": "Beklit",
+      "xolst": "Xolst",
+      "tkan-dlya-sublimatsionoy-pechati": "Sublimatsion bosma uchun mato",
+      "pechatniy-orakal": "Bosma uchun orakal",
     },
-    // "istochniki-sveta": {
-    //   "led-prozhektory": "LED proyektorlar (sofitlar)",
-    //   "moduli-svetodiodnye": "LED modullar",
-    //   "svetod-lenty": "LED lentalar",
-    //   "svetod-linejki-zhestkaya-osnova": "Qattiq asosli LED lineykalar",
-    //   "duralajt": "LED duralayt",
-    //   "svetilnik": "Chiroq (svetilnik)",
-    //   "gibkij-neon": "Moslashuvchan LED neon",
-    // },
+
     "istochniki-sveta": {
       "led-prozhektory": "LED proyektorlar (sofitlar)",
       "moduli-svetodiodnye": "LED modullar",
@@ -186,68 +175,45 @@ const TR_UZ = {
       "svetod-linejki-zhestkaya-osnova": "Qattiq asosli LED lineykalar",
       "duralajt": "LED duralayt",
       "svetilnik": "Chiroq",
-      "gibkij-neon": "Moslashuvchan LED neon"
+      "gibkij-neon": "Moslashuvchan LED neon",
     },
 
     "transformatory-i-upravlenie": {
-      "transformatory-naruzh": "Transformatorlar (ichki va tashqi)",
-      "transformatory-vnutr": "Kontrollerlar, dimmerlar, kuchaytirgichlar",
+      "transformatory-naruzh": "Transformatorlar (tashqi)",
+      "transformatory-vnutr": "Transformatorlar (ichki)",
     },
+
     "chernila-kraski": {
       "solvent-kraski": "Solvent bo‘yoqlar",
       "ecosolvent-kraski": "Ekosolvent bo‘yoqlar",
     },
-    // "reklamno-vystavochnoe": {
-    //   "pop-up-stendy": "Pop-up stendlar (press-wall)",
-    //   "x-konstrukcii": "X-konstruksiyalar, X-bannerlar",
-    //   "roll-up": "Roll-up stendlar",
-    //   "promostoly": "Promo stollar, promostoykalar",
-    //   "flagchiki-flagi": "Bayroqchalar (bayroqlar)",
-    //   "posm-raznoe": "POSM materiallar (turli)",
-    //   "bukletnicy": "Buklet qo‘yish stendlari",
-    // },
+
     "reklamno-vystavochnoe": {
       "pop-up-stendy": "Pop-up stendlar (press-wall)",
-      "x-konstrukcii": "X-konstruksiyalar (X-bannerlar)",
       "roll-up": "Roll-up stendlar",
-      "promostoly": "Promo stollar (promostoykalar)",
       "flagchiki-flagi": "Bayroqchalar (bayroqlar)",
-      "posm-raznoe": "POSM materiallari (turli)",
-      "bukletnicy": "Buklet stendlari"
+      "promostoly": "Promo stollar (promostoykalar)",
     },
 
     "alyuminievye-profily": {
       "profil-dlya-lent": "LED lentalar uchun alyuminiy profil",
     },
+
     "kleevye-resheniya": {
-      "skotch": "Skotchlar",
-      "klei": "Elimlar",
+      "skotch": "Ikki tomonlama lentlar (skotch)",
+      "klej": "Elim",
     },
+
     "metal-i-plast-furnitura": {
-      "kajma-plastikovaya": "Plastik qirra",
-      "metal-furnitura": "Metall furnitura",
-      "neodimovye-magnity": "Neodim magnitlar",
+      "distantsionnye-derjateli-serebro": "Distantsion tutqichlar (kumush)",
     },
-    // "instrumenty": {
-    //   "ruchnye-instrumenty": "Qo‘l anjomlari",
-    //   "postpechatnye-instrumenty": "Bosmadan keyingi anjomlar",
-    // },
 
     "instrumenty": {
+      "ruchnye-instrumenty": "Qo‘l asboblari Hoji",
       "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
       "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
-      "rakeli": "Rakelilar",
-      "ruchnye-instrumenty": "Qo‘l asboblari"
+      "rakeli": "Rakelar",
     },
-
-
-    // "instrumenty": {
-    //   "lezviya-dlya-nozhey": "Pichoqlar uchun lezviyalar",
-    //   "lyoversy-i-proboyniki": "Lyoverslar va proboyniklar",
-    //   "rakeli": "Rakelilar",
-    //   "ruchnye-instrumenty": "Qo‘l asboblari"
-    // },
-
 
     "frezy-i-gravery": {
       "frezy": "Frezalar",
