@@ -169,12 +169,12 @@ const TR_UZ = {
     },
 
     "istochniki-sveta": {
-      "led-prozhektory": "LED proyektorlar (sofitlar)",
+      // "led-prozhektory": "LED proyektorlar (sofitlar)",
       "moduli-svetodiodnye": "LED modullar",
       "svetod-lenty": "LED lentalar",
       "svetod-linejki-zhestkaya-osnova": "Qattiq asosli LED lineykalar",
-      "duralajt": "LED duralayt",
-      "svetilnik": "Chiroq",
+      // "duralajt": "LED duralayt",
+      // "svetilnik": "Chiroq",
       "gibkij-neon": "Moslashuvchan LED neon",
     },
 
