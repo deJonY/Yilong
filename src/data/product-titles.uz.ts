@@ -202,7 +202,7 @@ export const PRODUCT_TITLES_UZ = {
   "transformator-150w-zakrytyy-naruzhnyy-12v": "Transformator 150W yopiq tashqi 12V",
   "transformator-200w-12v-rainproof": "Transformator 200W 12V rainproof",
   "transformator-200w-otkrytyy-tonkiy-uzkiy-12v": "Transformator 200W ochiq yupqa (tor) 12V",
-  "transformator-200w-zakrytyy-naruzhnyy-12v": "Transformator 200W yopiq tashqi 12V",
+  "transformator-200w-zakrytyy-naruzhnyy-12v": "Transformatoor 200W yopiq tashqi 12V",
   "transformator-240w-otkrytyy-tonkiy-uzkiy-12v": "Transformator 240W ochiq yupqa (tor) 12V",
   "transformator-250w-zakrytyy-naruzhnyy-12v": "Transformator 250W yopiq tashqi 12V",
   "transformator-300w-12v-rainproof": "Transformator 300W 12V rainproof",
